@@ -16,7 +16,7 @@ Welcome to **RecipeApp**! This Android app lets you explore various recipe categ
 - **Coil**: Image loading library for fetching images efficiently.
 - **ViewModel & LiveData**: Used for managing UI-related data lifecycle-consciously.
 
-## 🛠 Installation
+## 🚧 Installation
 
 ### Open Project in Android Studio:
 1. Launch **Android Studio**.
@@ -36,7 +36,7 @@ The app fetches recipe categories using the **TheMealDB API**. Check out the off
 
 ---
 
-## 📝 License
+## 🖍️ License
 
 This project is licensed under the MIT License.
 
