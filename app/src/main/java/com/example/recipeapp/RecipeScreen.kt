@@ -4,8 +4,10 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
@@ -29,7 +31,7 @@ fun RecipeScreen(
     navigateToDetail: (Category) -> Unit
 ){
     val recipeViewModel: MainViewModel = viewModel()
-
+    Spacer(modifier = Modifier.height(24.dp))
     Box(modifier = Modifier.fillMaxSize()) {
         when{
             viewState.loading -> {
